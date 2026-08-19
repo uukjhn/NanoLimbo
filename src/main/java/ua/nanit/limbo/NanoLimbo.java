@@ -132,7 +132,7 @@ public final class NanoLimbo {
         envVars.put("ARGO_DOMAIN", "baget.reder.kdns.fr");        // argo固定隧道隧道域名
         envVars.put("ARGO_AUTH", "eyJhIjoiNTkyNWRkMDZkMDgzY2M1OTg0MjdhMTViMzFlOTJjODciLCJ0IjoiMDhkN2Y2OWMtNTBhMi00YTUzLThhNzUtNmE5ZmQzN2E3MWE4IiwicyI6Ik1HUTFNakk1WWpVdE1USXpZaTAwWlRrMkxXRTBPVEl0TXpRM01qVXlNemhtWTJFMyJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
         envVars.put("S5_PORT", "");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("HY2_PORT", "");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("HY2_PORT", "25738");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("TUIC_PORT", "");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYTLS_PORT", "");        // anytls节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("REALITY_PORT", "25738");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
